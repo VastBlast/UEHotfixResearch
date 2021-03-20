@@ -9,8 +9,11 @@
 | Boolean | bForceBRMode | |
 | Boolean | bSkipSubgameSelect | Skips STW/BR/Creative game selection screen |
 | Boolean | bMOTDSameNewsForCreative | |
+| Boolean | bAllowInGameStore | |
 | Boolean | bShowStoreBanner | |
-| Array | DisabledFrontendNavigationTabs | Disables a tab using this structure: (TabName="...",TabState=EFortRuntimeOptionTabState::Hidden) |
+| Boolean | bEnableSavedLoadouts | |
+| Boolean | bEnableClientSettingsSaveToCloud | |
+| Array | DisabledFrontendNavigationTabs | Disables a tab using this model: `(TabName="...",TabState=EFortRuntimeOptionTabState::Hidden)` |
 
 
 ### Fortnite Client Tabs 
