@@ -10,7 +10,8 @@
 | Type | Key | Note |
 | - | - | - |
 | | | |
-| Boolean | bBattleRoyaleMatchmakingEnabled | |
+| Integer | KairosMinSupportedAppVersion | |
+| Boolean | bBattleRoyaleMatchmakingEnabled | Enables or disables the ability to matchmake into a Battle Royale playlist |
 | Boolean | bCreativeModeProfileEnabled | |
 
 
