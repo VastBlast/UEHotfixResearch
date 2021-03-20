@@ -33,6 +33,9 @@
 | Boolean | bAthenaLeaderboardFrontEndEnabled | |
 | Boolean | bAthenaStatsFrontendEnabled | |
 | Boolean | bGlobalLeaderboardsFrontEndEnabled | |
+| Boolean | bEnableFrontendCrafting | |
+| Boolean | bEnableFrontendStorage | |
+| Integer | TimeBetweenLeaderboardRequestsMinutes | |
 
 
 ---
