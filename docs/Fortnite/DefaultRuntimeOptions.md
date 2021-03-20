@@ -1,4 +1,4 @@
-# [/Script/FortniteGame.FortRuntimeOptions]
+## [/Script/FortniteGame.FortRuntimeOptions]
 
 | Type | Key | Note |
 | - | - | - |
