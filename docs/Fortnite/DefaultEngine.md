@@ -5,11 +5,10 @@
 | Boolean | FortMatchmakingV2.EnableContentBeacon | |
 | Boolean | FortMatchmakingV2.ContentBeaconFailureCancelsMatchmaking | |
 | Boolean | Fort.ShutdownWhenContentBeaconFails | |
-| Boolean | demo.GotoTimeInSeconds | Skips to a certain time in seconds once a replay is loaded |
 | Boolean | demo.WithTimeBurnIn | |
 | Boolean | demo.EnableCheckpoints | |
-| Integer | demo.TimeDilation | |
-
+| Boolean | demo.GotoTimeInSeconds | Skips to a certain time in seconds once a replay is loaded |
+| Float | demo.TimeDilation | Sets universal default start time of replays to a certain time in seconds |
 
 ---
 ## [SystemSettings]
@@ -26,7 +25,7 @@
 | Type | Key | Note |
 | - | - | - |
 | | | |
-| Float | ApplicationScale | |
+| Float | ApplicationScale | Scales client ui |
 
 
 ---
