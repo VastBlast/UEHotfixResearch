@@ -13,6 +13,7 @@
 | Integer | KairosMinSupportedAppVersion | |
 | Boolean | bBattleRoyaleMatchmakingEnabled | Enables or disables the ability to matchmake into a Battle Royale playlist |
 | Boolean | bCreativeModeProfileEnabled | |
+| Array | FrontEndPlaylistData | Model: `(PlaylistName=Playlist_PlaylistId, PlaylistAccess=(bEnabled=false, bIsDefaultPlaylist=false, CategoryIndex=0, bDisplayAsLimitedTime=false, DisplayPriority=8), AccessOverrides=((Regions=(\"ALL\"), Platforms=(\"ALL\"), OverrideAccess=(bEnabled=false, bIsDefaultPlaylist=false, bDisplayAsLimitedTime=False, DisplayPriority=8)))` |
 
 
 ---
