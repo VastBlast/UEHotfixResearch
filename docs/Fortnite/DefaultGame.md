@@ -41,3 +41,4 @@
 | - | - | - |
 | | | |
 | Boolean | bCustomKeyEnabled | |
+| Array | AltDomainRecords | Model: `(OriginalDomain="intial.matchmaking.domain", AltDomain="alternate.matchmaking.domain")`|
