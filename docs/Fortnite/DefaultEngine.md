@@ -62,6 +62,7 @@
 | | | |
 | Float | CreatePartyWaitForXmppConnectionTimeoutSeconds | |
 | Float | JoinPartyWaitForXmppConnectionTimeoutSeconds |  |
+| Boolean | bRequiresMatchingBuildId | |
 
 
 ---
