@@ -7,7 +7,7 @@
 | Boolean | Fort.ShutdownWhenContentBeaconFails | |
 | Boolean | demo.WithTimeBurnIn | |
 | Boolean | demo.EnableCheckpoints | |
-| Boolean | demo.GotoTimeInSeconds | Skips to a certain time in seconds once a replay is loaded |
+| Float | demo.GotoTimeInSeconds | Skips to a certain time in seconds once a replay is loaded |
 | Float | demo.TimeDilation | Sets universal default start time of replays to a certain time in seconds |
 
 ---
