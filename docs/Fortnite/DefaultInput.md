@@ -5,6 +5,7 @@
 | Boolean | bAltEnterTogglesFullscreen | |
 | Boolean | bF11TogglesFullscreen | |
 | Boolean | bDefaultViewportMouseLock | |
+| Boolean | bUseMouseForTouch | |
 | Float | FOVScale | sets sensitivity of item movement in locker |
 
 
