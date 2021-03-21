@@ -45,7 +45,9 @@
 
 
 ---
-## [OnlineSubsystemMcp.Xmpp] - [OnlineSubsystemMcp.Xmpp Prod]
+## [OnlineSubsystemMcp.Xmpp]
+- Prod: **[OnlineSubsystemMcp.Xmpp Prod]**
+
 | Type | Key | Note |
 | - | - | - |
 | | | |
@@ -64,11 +66,14 @@
 
 ---
 ## [OnlineSubsystemMcp.{service} {env}]
+- BaseService: **[OnlineSubsystemMcp.BaseServiceMcp]**
+
 | Type | Key | Note |
 | - | - | - |
 | | | |
 | String | Domain | eg: `sub.example.com`, `example.com:8080` |
 | Array | AltDomains | |
 | String | Protocol | eg: `http`, `https` |
-| Boolean | bEnabled | |
 | Float | HttpRetryLimit | |
+| Boolean | bEnabled | |
+| Boolean | bUpdatesConnectionStatus | True = any failed HTTP request will cause an immediate logout |
