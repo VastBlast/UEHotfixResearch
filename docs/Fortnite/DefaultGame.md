@@ -26,6 +26,22 @@
 
 
 ---
+## [FortSubscriptionInfo]
+| Type | Key | Note |
+| - | - | - |
+| | | |
+| Integer | RefreshStatusMinutes | |
+
+
+---
+## [/Script/FortniteGame.FortLobbyBeaconState]
+| Type | Key | Note |
+| - | - | - |
+| | | |
+| Boolean | bWeaponsCanBeAutoPickups | |
+
+
+---
 ## [/Script/FortniteGame.FortGlobals]
 | Type | Key | Note |
 | - | - | - |
@@ -45,3 +61,14 @@
 | | | |
 | Boolean | bCustomKeyEnabled | |
 | Array | AltDomainRecords | Model: `(OriginalDomain="intial.matchmaking.domain", AltDomain="alternate.matchmaking.domain")`|
+
+
+---
+## [VoiceChatManager]
+| Type | Key | Note |
+| - | - | - |
+| | | |
+| Boolean | bEnabled | |
+| Boolean | bEnableOnLoadingScreen | |
+| Boolean | bObtainJoinTokenFromPartyService | |
+| Integer | JoinChannelTimeout | |
