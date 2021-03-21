@@ -35,6 +35,7 @@
 | Boolean | bGlobalLeaderboardsFrontEndEnabled | |
 | Boolean | bEnableFrontendCrafting | |
 | Boolean | bEnableFrontendStorage | |
+| Boolean | bUploadAthenaStats | |
 | Integer | TimeBetweenLeaderboardRequestsMinutes | |
 
 
