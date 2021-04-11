@@ -1,6 +1,5 @@
 ## Unreal Engine Hotfix System: 
 ##### (Mostly focused on Fortnite)
---- 
 
 #### - Overview:
 
@@ -21,7 +20,9 @@ In simple terms: this plugin aims to provide the game devs to have a *quick* but
 - Default UE4 configuration categories are `Compat, DeviceProfiles, Editor, EditorGameAgnostic, EditorKeyBindings, EditorUserSettings, Engine, Game, Input, Lightmass, Scalability`. Some of them are Editor only as you can tell, Fortnite has the main ones `Engine, Game, Input, etc..` as well as some custom ones `e.g: DefaultRuntimeOptions`, However, in this documentation we'll be focusing only on the ones used by fortnite.
 <br>
 
-#### - Default UE4 Configuration Files (Engine, Input, Game, ETC..):
+---
+
+#### - UE4 Configuration Files and Hotfixing:
 
 - **Engine**: This files are used for object and variable default values for Engine Classes, As you should've gussed, This file inherits **Engine** UClasses and UProperties, Looking for the class you want in the engine source should be enough.
 <br>
@@ -56,7 +57,7 @@ As the name sounds it's for "Runtime Options", as stated [here](https://docs.unr
 <br>
 
 - **Hotfixes Documentation**:
-Unofficially tracked and documented fortnite hotfixes for a wide variety of configuration files can be found in Fortnite [directory](/Fortnite).
+Unofficially tracked and documented **fortnite** hotfixes for a wide variety of configuration files can be found [here](/docs/Fortnite).
 <br>
 
-###### Written with <3 by [kemo](https://github.com/kem0o)
+###### Written with ♥ by [kemo](https://github.com/kem0o)
