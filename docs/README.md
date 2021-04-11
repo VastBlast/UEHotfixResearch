@@ -4,7 +4,7 @@
 #### - Overview:
 
 - Unreal Engine Hotfix is an engine plugin,
-In simple terms: this plugin aims to provide the game devs to have a *quick* but efficient access to adjust classes \ edit it's default values, without the need to push a build to address the changes, mostly used for emergency proposes.
+In simple terms: this plugin aims to provide the game devs a *quick* but efficient access to adjust classes \ edit it's default values, without the need to push a build to address the changes, mostly used for emergency proposes.
 <br>
 
 - Focusing on Fortnite more. Fortnite's Hotfix system is pretty much the same as the default engine one, as well as some changes; Fortnite provides it's hotfixes using it's api "CloudStorage" Service.
