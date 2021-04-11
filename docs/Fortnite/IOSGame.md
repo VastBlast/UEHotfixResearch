@@ -30,7 +30,7 @@
 | bool | bHasWorldMap | |
 | bool | bAllowLogout | |
 | bool | bAllowQuit | |
-| Array | SubGameAccess |(SubGame=(Athena,Campain,Creative),AccessStatus=OpenAccess,MatchmakingStatus=(Enabled,Disabled) | For IOS only Athena is enabled
+| Array | SubGameAccess |(SubGame=(Athena,Campain,Creative),AccessStatus=(OpenAccess, Disabled),MatchmakingStatus=(Enabled,Disabled) | For IOS only Athena is enabled
 | Float | MemoryRequirementForMediaStreamingMB |default is 3500 |
 | Float | MaxResolutionForMediaStreaming |It's set to 720p on ios, even if you upscale the res of the game |
 
