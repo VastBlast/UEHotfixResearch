@@ -4,6 +4,9 @@
 | - | - | - |
 | | | |
 | Boolean | bAllowAllReplays | Allows client to play old replays |
+| Boolean | bGetLiveSessionsFromLeaderboards | Get Live Sessions, where you can watch matches live i presume, I believe this was used so you can watch the world cup live.|
+| Boolean | bEnableBattlePassWatchVideoActionOnCell | |
+| Boolean | bEnableBadMatchPopup | Enables Bad Match as in like a ban message or if the client failed to register with the server because anti cheat disabled that would be considered a "bad match" this is default to false.|
 | Boolean | bEnableInGameMatchmaking | Allows client to matchmake |
 | Boolean | bShowMOTDNews | Shows in-game news |
 | Boolean | bForceBRMode | |
@@ -11,6 +14,9 @@
 | Boolean | bMOTDSameNewsForCreative | |
 | Boolean | bAllowInGameStore | |
 | Boolean | bShowStoreBanner | |
+| Float | BadMatchIncidentThreshold | Default value is 20|
+| Float | BadConnectionUpdateTime |Default value is 5|
+| Float | BadMatchPopupRecallInterval |Default value is 10|
 | Boolean | bEnableSavedLoadouts | |
 | Boolean | bEnableClientSettingsSaveToCloud | |
 | Integer | PreloadRevision | |
