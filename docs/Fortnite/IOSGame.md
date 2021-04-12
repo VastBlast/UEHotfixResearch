@@ -23,13 +23,13 @@
 | Float | MinCullDistance | default is 3000 |
 | Float | MaxCullObjectSize | default is 1000 |
 | Float | MaxCullDistance | default is 28500 |
-| bool | bAccountLinkingEnabled | |
-| bool | bTwitchEnabled | |
-| bool | bTwitchHeartbeatEnabled | |
-| bool | bTwitchAllowDisplayViewernames | |
-| bool | bHasWorldMap | |
-| bool | bAllowLogout | |
-| bool | bAllowQuit | |
+| Boolean | bAccountLinkingEnabled | |
+| Boolean | bTwitchEnabled | |
+| Boolean | bTwitchHeartbeatEnabled | |
+| Boolean | bTwitchAllowDisplayViewernames | |
+| Boolean | bHasWorldMap | |
+| Boolean | bAllowLogout | |
+| Boolean | bAllowQuit | |
 | Array | SubGameAccess |(SubGame=(Athena,Campain,Creative),AccessStatus=(OpenAccess, Disabled),MatchmakingStatus=(Enabled,Disabled) | For IOS only Athena is enabled
 | Float | MemoryRequirementForMediaStreamingMB |default is 3500 |
 | Float | MaxResolutionForMediaStreaming |It's set to 720p on ios, even if you upscale the res of the game |
@@ -67,7 +67,7 @@
 | - | - | - |
 | | | |
 | Float | NetworkTypePollingDelay | Default is 4|
-| Bool | bEnableBluetoothMicrophone ||
+| Boolean | bEnableBluetoothMicrophone ||
 
 
 ---
@@ -76,24 +76,24 @@
 | Type | Key | Note |
 | - | - | - |
 | | | |
-| Bool | bEnableCVarScaling ||
+| Boolean | bEnableCVarScaling ||
 
 ---
 ## [PartyHub]
 | Type | Key | Note |
 | - | - | - |
-| Bool| bExampleForTesting | |
+| Boolean| bExampleForTesting | |
 | Int32 | ExampleInt32ForTesting ||
 | Double | ExampleDoubleForTesting ||
 | String | ExampleStringForTesting ||
 | String | electraPlayerContent ||
-| Bool | bIsChatEnabled ||
-| Bool | bIsTextChatEnabled ||
-| Bool | bUseExtendedSearch ||
-| Bool | bDisplayAutoLaunch ||
+| Boolean | bIsChatEnabled ||
+| Boolean | bIsTextChatEnabled ||
+| Boolean | bUseExtendedSearch ||
+| Boolean | bDisplayAutoLaunch ||
 | Int32 | autoLaunchDelay ||
-| bool | bDefaultValueAutoLaunch ||
-| Bool | bEnableDisambiguateLoading ||
+| Boolean | bDefaultValueAutoLaunch ||
+| Boolean | bEnableDisambiguateLoading ||
 
 ---
 ## [Staging]
@@ -108,7 +108,7 @@
 | Type | Key | Note |
 | - | - | - |
 | | | |
-| Bool | bEnablePersistentStatTracking ||
+| Boolean | bEnablePersistentStatTracking ||
 ---
 ## [EpicPurchaseFlow]
 | Type | Key | Note |
