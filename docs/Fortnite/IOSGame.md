@@ -79,6 +79,31 @@
 | Bool | bEnableCVarScaling ||
 
 ---
+## [PartyHub]
+| Type | Key | Note |
+| - | - | - |
+| Bool| bExampleForTesting | |
+| Int32 | ExampleInt32ForTesting ||
+| Double | ExampleDoubleForTesting ||
+| String | ExampleStringForTesting ||
+| String | electraPlayerContent ||
+| Bool | bIsChatEnabled ||
+| Bool | bIsTextChatEnabled ||
+| Bool | bUseExtendedSearch ||
+| Bool | bDisplayAutoLaunch ||
+| Int32 | autoLaunchDelay ||
+| bool | bDefaultValueAutoLaunch ||
+| Bool | bEnableDisambiguateLoading ||
+
+---
+## [Staging]
+| Type | Key | Note |
+| - | - | - |
+| | | |
+| Array | RemapDirectories |(From="Engine/Plugins/Lumin", To="Engine/Plugins/MagicLeap")|
+
+
+---
 ## [PersistentStatsTracker]
 | Type | Key | Note |
 | - | - | - |
