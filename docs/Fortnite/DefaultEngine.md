@@ -134,6 +134,8 @@
 | String | Domain | eg: `sub.example.com`, `example.com:8080` |
 | Array | AltDomains | |
 | String | Protocol | eg: `http`, `https` |
+| String | AccountCreationUrl | `/tos?client_id=clientid&response_type=code&embedded=true`|
+| String | LoginPortalUrl | `/login/logintype?client_id=clientid&response_type=code` |
 | Float | HttpRetryLimit | |
 | Boolean | bEnabled | |
 | Boolean | bUpdatesConnectionStatus | True = any failed HTTP request will cause an immediate logout |
