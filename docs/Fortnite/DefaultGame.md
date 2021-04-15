@@ -48,8 +48,8 @@
 | Array | AltDomainRecords | Model: `(OriginalDomain="intial.matchmaking.domain", AltDomain="alternate.matchmaking.domain")`|
 ---
 ## [AssetHotfix]
-| Type | Note
-| - | - |
-| | |
-| Array |A Curve Table is a curve where you can evaluate a value by its key here's an example `+CurveTable=Path;RowUpdate;ROW_NAME;CURVE_NUMBER (example 0, 1, 21);VALUE`  |
-| Array | A Datatable is a similar concept as the CurveTable exept the value is static `+DataTable=Path;RowUpdate;ITEM_NAME;ROW_NAME;VALUE`|
+| Type | Key | Note |
+| - | - | - |
+| | | |
+| Array | CurveTable | A Curve Table is a curve where you can evaluate a value by its key here's an example `+CurveTable=Path;RowUpdate;ROW_NAME;CURVE_NUMBER (example 0, 1, 21);VALUE`|
+| Array | DataTable | A Datatable is a similar concept as the CurveTable exept the value is static `+DataTable=Path;RowUpdate;ITEM_NAME;ROW_NAME;VALUE`|
