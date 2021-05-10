@@ -121,7 +121,7 @@
 | | | |
 | Float | CreatePartyWaitForXmppConnectionTimeoutSeconds | |
 | Float | JoinPartyWaitForXmppConnectionTimeoutSeconds |  |
-| Boolean | bRequiresMatchingBuildId | |
+| Boolean | bRequiresMatchingBuildId | Bypass joining older client party if set to false |
 
 
 ---
