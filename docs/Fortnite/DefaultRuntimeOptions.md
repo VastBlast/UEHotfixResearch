@@ -1,8 +1,7 @@
 ## [/Script/FortniteGame.FortRuntimeOptions]
 
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | Boolean | bAllowAllReplays | Allows client to play old replays |
 | Boolean | bGetLiveSessionsFromLeaderboards | Get Live Sessions, where you can watch matches live i presume, I believe this was used so you can watch the world cup live.|
 | Boolean | bEnableBattlePassWatchVideoActionOnCell | |

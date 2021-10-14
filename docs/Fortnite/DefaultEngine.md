@@ -1,7 +1,6 @@
 ## [ConsoleVariables]
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | Boolean | FortMatchmakingV2.EnableContentBeacon | |
 | Boolean | FortMatchmakingV2.ContentBeaconFailureCancelsMatchmaking | |
 | Boolean | Fort.ShutdownWhenContentBeaconFails | |
@@ -15,7 +14,7 @@
 ---
 ## [SystemSettings]
 | Type | Key | Note |
-| - | - | - |
+| -------- | -------- | -------- |
 | Boolean | demo.WithLevelStreamingFixes | |
 | Boolean | demo.WithDeltaCheckpoints | |
 | Boolean | demo.ReplayStreamerAutoDemoUseDateTimePostfix | used for labeling replays |
@@ -39,7 +38,7 @@
 - Take a look at Fortnite logs to understand more about the logging system.  
 
 | Type | Key | Note |
-| - | - | - |
+| -------- | -------- | -------- |
 | ELogVerbosity::Type | LogHttp | e.g: `error` |
 | ELogVerbosity::Type | LogXmpp | |
 | ELogVerbosity::Type | LogBeacon | |
@@ -66,31 +65,27 @@
 ---
 ## [/Script/Engine.UserInterfaceSettings]
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | Float | ApplicationScale | Scales client ui |
 
 
 ---
 ## [LwsWebSocket]
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | Boolean | bDisableCertValidation | |
 
 
 ---
 ## [XMPP]
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | Boolean | bEnableWebsockets | |
 
 ---
 ## [PatchCheck]
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | String | ModuleName | e.g: `FortnitePatchCheck`|
 | Boolean | bCheckPlatformOSSForUpdate | |
 | Boolean | bCheckOSSForUpdate | |
@@ -98,8 +93,7 @@
 ---
 ## [/Script/Qos.QosRegionManager]
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | Array | RegionDefinitions | e.g: `+RegionDefinitions=(DisplayName=NSLOCTEXT("MMRegion", "EU", "EU"), RegionId="EU", bEnabled=true, bVisible=true, bAutoAssignable=true)`|
 
 
@@ -108,8 +102,7 @@
 - Prod: **[OnlineSubsystemMcp.Xmpp Prod]**
 
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | String | ServerAddr | e.g: `wss://example.com/xmpp` |
 | String | ServerPort |  |
 | Boolean | bUseSSL | |
@@ -117,8 +110,7 @@
 ---
 ## [OnlineSubsystemMcp.OnlinePartySystemMcpV2]
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | Float | CreatePartyWaitForXmppConnectionTimeoutSeconds | |
 | Float | JoinPartyWaitForXmppConnectionTimeoutSeconds |  |
 | Boolean | bRequiresMatchingBuildId | Bypass joining older client party if set to false |
@@ -129,8 +121,7 @@
 - BaseService: **[OnlineSubsystemMcp.BaseServiceMcp]**
 
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | String | Domain | eg: `sub.example.com`, `example.com:8080` |
 | Array | AltDomains | |
 | String | Protocol | eg: `http`, `https` |
