@@ -39,7 +39,7 @@
 
 | Type | Key | Note |
 | -------- | -------- | -------- |
-| ELogVerbosity::Type | LogHttp | e.g: `error` |
+| ELogVerbosity::Type | LogHttp | e.g.: `error` |
 | ELogVerbosity::Type | LogXmpp | |
 | ELogVerbosity::Type | LogBeacon | |
 | ELogVerbosity::Type | LogQos | |
@@ -58,7 +58,8 @@
 | ELogVerbosity::Type | LogOnlineDataAssetDirectory | |
 | ELogVerbosity::Type | LogContentBeacon | |
 | ELogVerbosity::Type | LogBPSInstallerConfig | |
-
+| ELogVerbosity::Type | LogMatchmakingServiceClient | |
+| ELogVerbosity::Type | LogGameFeedback | |
 
 
 
@@ -86,7 +87,7 @@
 ## [PatchCheck]
 | Type | Key | Note |
 | -------- | -------- | -------- |
-| String | ModuleName | e.g: `FortnitePatchCheck`|
+| String | ModuleName | e.g.: `FortnitePatchCheck`|
 | Boolean | bCheckPlatformOSSForUpdate | |
 | Boolean | bCheckOSSForUpdate | |
 
@@ -94,8 +95,14 @@
 ## [/Script/Qos.QosRegionManager]
 | Type | Key | Note |
 | -------- | -------- | -------- |
-| Array | RegionDefinitions | e.g: `+RegionDefinitions=(DisplayName=NSLOCTEXT("MMRegion", "EU", "EU"), RegionId="EU", bEnabled=true, bVisible=true, bAutoAssignable=true)`|
+| Array | RegionDefinitions | e.g.: `+RegionDefinitions=(DisplayName=NSLOCTEXT("MMRegion", "EU", "EU"), RegionId="EU", bEnabled=true, bVisible=true, bAutoAssignable=true)`|
+| Array | DatacenterDefinitions | e.g.: `+DatacenterDefinitions=(Id="VA", RegionId="NAE", bEnabled=true, Servers[0]=(Address="34.193.154.39", Port=22222), Servers[1]=(Address="52.203.3.55", Port=22222), Servers[2]=(Address="54.82.195.216", Port=22222), Servers[3]=(Address="34.194.116.183", Port=22222))`|
 
+---
+## [OnlineTracing]
+| Type | Key | Note |
+| -------- | -------- | -------- |
+| Boolean | bEnabled | |
 
 ---
 ## [OnlineSubsystemMcp.Xmpp]
@@ -103,9 +110,17 @@
 
 | Type | Key | Note |
 | -------- | -------- | -------- |
-| String | ServerAddr | e.g: `wss://example.com/xmpp` |
+| String | ServerAddr | e.g.: `wss://example.com/xmpp` |
 | String | ServerPort |  |
 | Boolean | bUseSSL | |
+
+---
+## [OnlineSubsystemMcp.OnlineStatsMcp]
+
+| Type | Key | Note |
+| -------- | -------- | -------- |
+| String | Domain | e.g.: `statsproxy-public-service-live.ol.epicgames.com` |
+| String | BasePath | e.g.: `statsproxy` |
 
 ---
 ## [OnlineSubsystemMcp.OnlinePartySystemMcpV2]
