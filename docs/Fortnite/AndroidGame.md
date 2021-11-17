@@ -5,3 +5,11 @@
 
 
 ---
+
+## [VoiceChatManager]
+| Type | Key | Note |
+| -------- | -------- | -------- |
+| Boolean | bUseService | |
+
+
+---
