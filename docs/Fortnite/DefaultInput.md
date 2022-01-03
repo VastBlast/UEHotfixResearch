@@ -1,7 +1,6 @@
 ## [/Script/Engine.InputSettings]
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | Boolean | bAltEnterTogglesFullscreen | |
 | Boolean | bF11TogglesFullscreen | |
 | Boolean | bDefaultViewportMouseLock | |
@@ -12,8 +11,7 @@
 ---
 ## [ConfigCustom_Athena FortPlayerInputSettings]
 | Type | Key | Note |
-| - | - | - |
-| | | |
+| -------- | -------- | -------- |
 | Boolean | bBuildingPickerOnlyChoosesCategories | |
 | Boolean | bWeaponPickerShowOnlySlottedItems | |
 | Float | HoldInputTime | |
