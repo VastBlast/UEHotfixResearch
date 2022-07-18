@@ -1,5 +1,5 @@
 # UEHotfixResearch
- Research on hotfixes for games using Unreal Engine's [Hotfix](https://docs.unrealengine.com/en-US/API/Plugins/Hotfix/index.html) plugin.
+ Research on hotfixes for games using Unreal Engine's [Hotfix](https://docs.unrealengine.com/5.0/en-US/API/Plugins/Hotfix/) plugin.
 
  I am actively writing this research for Fortnite, for only the interesting/useful keys. 
 
